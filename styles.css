@@ -34,15 +34,17 @@ body {
 }
 
 .coin {
+  margin-top: 5rem;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 5px;
+  gap: 12px;
 }
 
 .coin-img { 
   height: 180px;
   width: 160px;
+  cursor: pointer;
 }
 
 .shadow-img {
@@ -80,8 +82,13 @@ body {
   cursor: pointer;
   border-radius: 8px;
   box-shadow: 0px 4px 0px 0px #23649b;
+  transition-duration: 200ms;
 }
 
+#btn:hover {
+  box-shadow: 5px 5px #23649b;
+  transform: translate((-2px, -2px));
+}
 
 .author-info {
   font-size: 14px;
