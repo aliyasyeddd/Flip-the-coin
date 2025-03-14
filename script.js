@@ -3,12 +3,9 @@ const imgSrc = document.querySelector(".coin-img");
 const coinResult = document.querySelector("#result");
 
 btnFlip.addEventListener("click", () => {
-  imgSrc.src =
-    Math.random() < 0.5 ? "./resources/heads.svg" : "./resources/tails.svg";
-  imgSrc.src === "./resources/heads.svg"
-    ? (coinResult.textContent = "Heads")
-    : (coinResult.textContent = "Tails"); 
-   
+  imgSrc.src = imgSrc.src.includes("heads") ? "./resources/tails.svg" : "./resources/heads.svg";
+  coinResult.textContent = imgSrc.src.includes("heads") ? "Heads" : "Tails";
 });
 
-//"./resources/tails.svg"
+
+
