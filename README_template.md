@@ -1,6 +1,6 @@
 <!-- Please update value in the {}  -->
 
-<h1 align="center">{Your project name} | devChallenges</h1>
+<h1 align="center">{Flip-the-coin} | devChallenges</h1>
 
 <div align="center">
    Solution for a challenge <a href="https://devchallenges.io/challenge/flip-the-coin" target="_blank">Flip The Coin</a> from <a href="http://devchallenges.io" target="_blank">devChallenges.io</a>.
@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="{https://your-demo-link.your-domain}">
+    <a href="https://flip-the-coin-seven.vercel.app/">
       Demo
     </a>
     <span> | </span>
-    <a href="{https://your-url-to-the-solution}">
+    <a href="https://github.com/aliyasyeddd/Flip-the-coin">
       Solution
     </a>
     <span> | </span>
@@ -26,13 +26,13 @@
 
 ## Table of Contents
 
-- [Overview](#overview)
-  - [What I learned](#what-i-learned)
-  - [Useful resources](#useful-resources)
-- [Built with](#built-with)
-- [Features](#features)
-- [Contact](#contact)
-- [Acknowledgements](#acknowledgements)
+- [Overview]
+  - [What I learned]
+  - [Useful resources]
+- [Built with]
+- [Features]
+- [Contact]
+- [Acknowledgements]
 
 <!-- OVERVIEW -->
 
@@ -40,23 +40,18 @@
 
 ![screenshot](https://user-images.githubusercontent.com/16707738/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png)
 
-<!--
-Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
-
-- What have you learned/improved?
-- Your wisdom? :)
--->
 
 ### What I learned
-
-<!-- Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge. -->
+In this Project i have learned Dom manipulation
+- how to control the css class and ids by adding functionality to them
+- by using ids adding event listener
 
 ### Useful resources
+ 
+ - Mdn  (https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener) - this helped me to add event listener for button 
+ - W3schools (https://www.geeksforgeeks.org/css-font-border/) - for adding font stroke
+ - Mdn (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/includes) - this helped me to check whether the src includes which url
 
-<!--
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
--->
 
 ### Built with
 
@@ -65,10 +60,7 @@ Introduce your projects by taking a screenshot or a gif. Try to tell visitors a 
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
-- [React](https://reactjs.org/)
-- [Vue.js](https://vuejs.org/)
-- [Tailwind](https://tailwindcss.com/)
+
 
 ## Features
 
@@ -76,11 +68,12 @@ Introduce your projects by taking a screenshot or a gif. Try to tell visitors a 
 
 This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges-dashboard) challenge.
 
-## Acknowledgements
+-When the button is clicked, the coin should randomly display either "Heads" or "Tails".
+- when clicking on the coin also it changes to either heads or tails
 
-<!-- This section should list any articles or add-ons/plugins that helps you to complete the project. This is optional but it will help you in the future. For exmpale -->
+
 
 ## Author
 
-- Website [your-website.com](https://{your-web-site-link})
-- GitHub [@your-username](https://{github.com/your-usermame})
+- Website https://flip-the-coin-seven.vercel.app/
+- GitHub https://github.com/aliyasyeddd/Flip-the-coin
